@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(238, 14, 14);
+}
+.container-fluid img { 
+    width: 150px;
+    background-color: white;
+    border: outset;
+    border-radius: 15px;
+    box-shadow: inset 7px 7px 12px gold,
+                 7px 7px 12px red;
+   border-color:black;
+   border-width: 5px;
+
+    
+}
+.menu-bar{
+    background-color:#3D195B;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 20px;
+    
+}
+
+.nav-item {
+  display: flex;
+  margin-left: 40px;
+}
+
+.navbar .nav-item a{
+color:white!important;
+}
+
+.navbar .nav-item a:hover{
+    background: #f5005f ;
+}
+
+
+.navbar button{
+    background-color: #f5005f;
+    color: white;
+}
+
+.road{
+      
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    margin:100PX auto;
+    max-width: 600px;
+    font-family: 'Abril Fatface', cursive;
+    color: #FE8802;
+}
+.road:hover{
+    background-color: #3D195B;
+    height: 60px;
+}
+h1:before{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: #f5005f;
+    margin-top: 20px;
+    position: absolute;
+    top: 20%;
+    
+    z-index: -5;
+}
+
+h1:after{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: #f5005f;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: -5;
+}
+
+.oder h3{
+    text-align: center;
+    color:#3D195B;
+}
+.oder p{
+    text-align: center;
+}
+
+.swu h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.swu p{
+    text-align: center;
+}
+
+.high h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.high p{
+    text-align: center;
+}
+.dan h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.dan p{
+    text-align: center;
+}
+
+.mos h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.mos p{
+    text-align: center;
+}
+.pho h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.pho p{
+    text-align: center;
+}
+.jac h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.jac p{
+    text-align: center;
+}
+.ice h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.ice p{
+    text-align: center;
+}
+.bed h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.bed p{
+    text-align: center;
+}
+.thal h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.thal p{
+    text-align: center;
+}
+.mick h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.mick p{
+    text-align: center;
+}
+.ice h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.ice p{
+    text-align: center;
+}
+.dus h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.dus p{
+    text-align: center;
+}
+.scro h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.scro p{
+    text-align: center;
+}
+.vnam h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.vnam p{
+    text-align: center;
+}
+
+.marthu h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.marthu p{
+    text-align: center;
+}
+
+.ahga h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.ahga p{
+    text-align: center;
+}
+.tim h3{
+    text-align: center;
+    color:#3D195B;
+    margin-top: 3%;
+}
+
+.tim p{
+    text-align: center;
+}
+
+
+footer{
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    width: 100%;
+    color: white;
+    margin-top: 70px;
+    height: auto;
+    padding: 50px 100px;
+    position: relative;
+    border-bottom-right-radius: 400px;
+    border-top-left-radius: 150px;
+    
+   }
+   footer .container{
+       width: 100%;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       
+   
+   }
+   
+   footer.container .sec p{
+       color: white;
+   }
+   .sci img{
+       
+       width: 35px;
+   }
+   
+   .sci{
+       margin-top: 10px;
+       display: grid;
+       font-size: 10px;
+   }
+   
+   .sci li{
+       list-style: none;
+    
+       
+   }
+   
+   .sci li a{
+       margin-bottom: 20px;
+       display: inline-block;
+       margin-top: 25px;
+       margin-left: 50px;
+       
+   }
+   
+   
+   
+   
+   
+   .quicklinks{
+       position: relative;
+       margin-left: 20px;
+   }
+   
+   .quicklinks li{
+       list-style: none;
+       
+   }
+   
+   .quicklinks li a{
+       color: white;
+       text-decoration: none;
+       margin-bottom:10px;
+       display: inline-block;
+       margin-top: 25px;
+   
+       
+       
+   }
+   .fulled img{
+       
+       background-color: white;
+       margin-left: 50%;
+       height: 50%;
+       border-radius: 10px;
+   
+   }
+   
+   .fulled img:hover{
+       box-shadow: inset 7px 7px 12px red,
+        7px 7px 12px gold;
+   
+   }
+   
+   .copyrighttext{
+       background:#FE8802;
+       color:white;
+       margin-right: 26%;
+       border-bottom-right-radius: 50px;
+       text-align: center;
+       justify-content: center;
+       border-width: 15px;
+       border: outset;
+       border-color: black;
+       font-size: 16px;
+   }
+   .copyrighttext:hover{
+       color: black;
+   }

@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid img { 
+    width: 150px;
+    background-color: white;
+    border: outset;
+    border-radius: 15px;
+    box-shadow: inset 7px 7px 12px gold,
+                 7px 7px 12px red;
+   border-color:black;
+   border-width: 5px;
+
+    
+}
+.menu-bar{
+    background-color:#3D195B;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 20px;
+    
+}
+
+.nav-item {
+  display: flex;
+  margin-left: 40px;
+}
+
+.navbar .nav-item a{
+color:white!important;
+}
+
+.navbar .nav-item a:hover{
+    background: #f5005f ;
+}
+
+
+.navbar button{
+    background-color: #f5005f;
+    color: white;
+}
+
+.team{
+    border: outset;
+    border-color:#0574df;
+    border-width: 5px;
+    margin-top: 5%;
+    height: 300px;
+    background: linear-gradient(to right, #FDA913,#FE8802);
+    width: 100%;
+}
+
+.scroll img{
+    width: 70%;
+    margin-top: 25%;
+    transition: all 1.1s ease;
+}
+
+.scroll:hover img{
+    transform: scale(1.2);
+}
+
+ h2{
+    font-family: 'Abril Fatface', cursive;
+    margin-left: 20px;
+}
+.nike img{
+    width: 90%;
+    margin-top: 15%;
+    transition: all 1.1s ease;
+} 
+.nike:hover img{
+    transform: scale(1.2);
+}
+
+.world img{
+  
+    width: 90%;
+    margin-top: 30%;
+    transition: all 1.1s ease;
+    
+}
+.world:hover img{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+.details{
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    margin:100PX auto;
+    max-width: 600px;
+    font-family: 'Abril Fatface', cursive;
+    color: #FE8802;
+    margin-top: 25%;
+}
+.details:hover{
+    background-color: #3D195B;
+    height: 60px;
+}
+h2:before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #f5005f;
+    margin-top: 20px;
+    position: absolute;
+    top: 20%;
+    
+    z-index: -5;
+}
+
+h2:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #f5005f;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: -5;
+}
+
+h3{
+    margin-left: 40px;
+}
+
+footer{
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    width: 100%;
+    color: white;
+    margin-top: 70px;
+    height: auto;
+    padding: 50px 100px;
+    position: relative;
+    border-bottom-right-radius: 400px;
+    border-top-left-radius: 150px;
+    
+   }
+   footer .container{
+       width: 100%;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       
+   
+   }
+   
+   footer.container .sec p{
+       color: white;
+   }
+   .sci img{
+       
+       width: 35px;
+   }
+   
+   .sci{
+       margin-top: 10px;
+       display: grid;
+       font-size: 10px;
+   }
+   
+   .sci li{
+       list-style: none;
+       
+       
+   }
+   
+   .sci li a{
+       margin-bottom: 20px;
+       display: inline-block;
+       margin-top: 25px;
+       margin-left: 50px;
+       
+   }
+   
+   
+   
+   
+   
+   .quicklinks{
+       position: relative;
+       margin-left: 20px;
+   }
+   
+   .quicklinks li{
+       list-style: none;
+       
+   }
+   
+   .quicklinks li a{
+       color: white;
+       text-decoration: none;
+       margin-bottom:10px;
+       display: inline-block;
+       margin-top: 25px;
+   
+       
+       
+   }
+   .fulled img{
+       
+       background-color: white;
+       margin-left: 50%;
+       height: 50%;
+       border-radius: 10px;
+   
+   }
+   
+   .fulled img:hover{
+       box-shadow: inset 7px 7px 12px red,
+        7px 7px 12px gold;
+   
+   }
+   
+   .copyrighttext{
+       background:#FE8802;
+       color:white;
+       margin-right: 26%;
+       border-bottom-right-radius: 50px;
+       text-align: center;
+       justify-content: center;
+       border-width: 15px;
+       border: outset;
+       border-color: black;
+       font-size: 16px;
+   }
+   .copyrighttext:hover{
+       color: black;
+   }
+
